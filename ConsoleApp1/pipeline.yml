@@ -30,10 +30,6 @@ steps:
   inputs:
     solution: '$(solution)'
 
-- task: VSTest@2
-  inputs:
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
 
 - task: CmdLine@2
   inputs:
